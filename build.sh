@@ -20,6 +20,10 @@ cp -rf build/numpy/lib64/python2.7/site-packages/numpy lambda-package
 		-D CMAKE_BUILD_TYPE=RELEASE				\
 		-D WITH_TBB=ON							\
 		-D WITH_IPP=ON							\
+		-D WITH_FFMPEG=ON						\
+		-D WITH_PNG=ON							\
+		-D WITH_GSTREAMER=ON						\
+		-D WITH_DSHOW=ON						\
 		-D WITH_V4L=ON							\
 		-D ENABLE_AVX=ON						\
 		-D ENABLE_SSSE3=ON						\
